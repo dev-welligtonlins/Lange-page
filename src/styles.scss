@@ -4,10 +4,14 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+
+    h1, h2 {
+        color: antiquewhite;
+    }
 }
 
 body {
     background-image: url('assets/svg/background-svg.svg');
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
