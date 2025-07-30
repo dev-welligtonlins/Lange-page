@@ -1,0 +1,20 @@
+main {
+    font-size: 14px;
+    height: 85%;
+}
+
+
+@media (min-width: 1024px){
+    main {
+        margin-left: 18rem;
+        margin-right: 18rem;
+    }    
+}
+
+@media (max-width: 600px){
+    main {
+        font-size: 12px;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
