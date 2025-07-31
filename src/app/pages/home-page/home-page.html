@@ -11,11 +11,11 @@
     <div class="section-rigth">
         <h1>Welligton Lins</h1>
         <h2>Desenvolvedor full-stack</h2>
-        <button (click)="openModal()">Sobre mim</button>
-        <button>Projetos</button>
-        <button>Carrera academica</button>
-        <button>Acre-Soccer</button>
+        <button (click)="openModal($event)">Sobre mim</button>
+        <button (click)="openModal($event)">Projetos</button>
+        <button (click)="openModal($event)">Carrera academica</button>
+        <button (click)="openModal($event)">Acre-Soccer</button>
     </div>
 </section>
 
-<app-modal *ngIf="viewModal" (a)="closeModal()"></app-modal>
+<app-modal *ngIf="viewModal" [title]="titleModal"  (cloModal)="closeModal()"></app-modal>

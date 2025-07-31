@@ -11,8 +11,14 @@ import { Modal } from '../../components/modal/modal';
 })
 export class HomePage {
   viewModal = false;
+  titleModal = '';
+  messageModal = '';
 
-  openModal() {
+
+  openModal(event: Event) {
+    const titleButton = event.target as HTMLElement;
+    this.titleModal = titleButton.innerText;
+    console.log(this.titleModal)
     this.viewModal = true;
   }
 
