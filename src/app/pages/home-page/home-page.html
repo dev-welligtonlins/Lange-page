@@ -2,16 +2,20 @@
     <div class="section-left">
         <img src="assets/img/perfil.jpeg" alt="" class="photo">
         <span class="span-icons">
-            <a href="https://github.com/dev-welligtonlins" target="_blank"><i class="bi bi-github fs-1 text-white"></i></a>
-            <a href="https://linkedin.com/in/welligton-lins-125b07262" target="_blank"><i class="bi bi-linkedin fs-1 text-white"></i></a>
+            <a href="https://github.com/dev-welligtonlins" target="_blank"><i
+                    class="bi bi-github fs-1 text-white"></i></a>
+            <a href="https://linkedin.com/in/welligton-lins-125b07262" target="_blank"><i
+                    class="bi bi-linkedin fs-1 text-white"></i></a>
         </span>
     </div>
     <div class="section-rigth">
         <h1>Welligton Lins</h1>
         <h2>Desenvolvedor full-stack</h2>
-        <button>Sobre mim</button>
+        <button (click)="openModal()">Sobre mim</button>
         <button>Projetos</button>
         <button>Carrera academica</button>
         <button>Acre-Soccer</button>
     </div>
 </section>
+
+<app-modal *ngIf="viewModal" (a)="closeModal()"></app-modal>
