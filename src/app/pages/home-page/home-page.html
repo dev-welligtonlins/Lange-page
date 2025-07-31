@@ -13,9 +13,9 @@
         <h2>Desenvolvedor full-stack</h2>
         <button (click)="openModal($event)">Sobre mim</button>
         <button (click)="openModal($event)">Projetos</button>
-        <button (click)="openModal($event)">Carrera academica</button>
+        <button (click)="openModal($event)">Carreira acadêmica</button>
         <button (click)="openModal($event)">Acre-Soccer</button>
     </div>
 </section>
 
-<app-modal *ngIf="viewModal" [title]="titleModal"  (cloModal)="closeModal()"></app-modal>
+<app-modal *ngIf="viewModal" [title]="titleModal" [message]="messageModal" (cloModal)="closeModal()"></app-modal>
