@@ -6,12 +6,13 @@ main {
 
 @media (min-width: 1024px){
     main {
-        margin-left: 18rem;
-        margin-right: 18rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
     }    
 }
 
-@media (max-width: 600px){
+
+@media (max-width: 720px){
     main {
         display: flex;
         flex-direction: column;

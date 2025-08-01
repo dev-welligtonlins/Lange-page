@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 721px) {
     section {
         display: flex;
         height: 80vh;
@@ -55,7 +55,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     section {
         display: flex;
         flex-direction: column;
