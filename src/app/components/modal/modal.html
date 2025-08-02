@@ -6,7 +6,7 @@
                 <button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"></button>
             </div>
             <div class="modal-body">
-                <pre>{{ message }}</pre>
+                <pre [innerHTML]="message"></pre>
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" (click)="closeModal()">Fechar</button>

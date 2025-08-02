@@ -23,7 +23,7 @@ export class HomePage {
     this.titleModal = titleButton.innerText;
 
     // Selecionando o arquvio de texto correspondente ao titulo do button 
-    const arq = this.titleModal.toLowerCase() + '.txt';
+    const arq = this.titleModal.toLowerCase() + '.html';
     const dir = `assets/txt-message/${arq}`;
     this.http.get(dir, { responseType: 'text' }).subscribe({
       next: conteudo => {
