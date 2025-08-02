@@ -1,0 +1,18 @@
+.modal-dialog {
+    margin-top: 5rem;
+    height: 80vh;
+}
+
+@media (max-width: 720px) {
+    .modal-dialog {
+        margin-top: 6rem;
+        height: 50vh;
+    }
+}
+
+
+.modal-body {
+    overflow-y: auto;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
