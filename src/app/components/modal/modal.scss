@@ -6,7 +6,7 @@
 @media (max-width: 720px) {
     .modal-dialog {
         margin-top: 6rem;
-        height: 50vh;
+        height: 70vh;
     }
 }
 
@@ -15,4 +15,9 @@
     overflow-y: auto;
     word-wrap: break-word;
     white-space: pre-wrap;
+}
+
+.text {
+    margin: 0px;
+    padding: 0px;
 }
